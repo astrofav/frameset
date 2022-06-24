@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<link rel="stylesheet" href="styles/all.css">
+	<title>Exam 2022</title>
+	<style>
+		input {
+			background-color: bisque;
+		}
+		input:focus {
+			background-color: cornflowerblue;
+		}
+	</style>
+</head>
+
+<body onload="javascript:window.open('window.html','win','height=250,width=250')">
+	<MARQUEE BEHAVIOR="scroll" DIRECTION="left" LOOP="infinite" SCROLLAMOUNT="5" SCROLLDELAY="100">
+		<FONT SIZE="+1" COLOR="black"><SCRIPT type="text/javascript">document.write(Date())</SCRIPT></FONT>
+	</MARQUEE>
+	<h2>Καλώς ήρθατε!!</h2>
+	<p>Πρόκειται για μια ιστοσελίδα με εκπαιδευτικό περιεχόμενο για τα μαθηματικά. 
+	Αν είστε μέλος μπορείτε να κάνετε login.</p><br>
+	<form type="submit" name="submit"><button>Login</button></form><br>
+	<p>Διαφορετικά μπορείτε να συμπληρώσετε την παρακάτω φόρμα και να μπείτε στην κοινότητα μας.</p><br>
+	<hr><br>
+	<div style="margin: 15px;">
+		<form>
+			<b>Ονοματεπώνυμο:</b>
+			<input type="text" value="Type here..." name="onoma" size="50" maxlength="40">
+		</form><br>
+		<form>
+			<b>Κωδικός:</b>
+			<input type="password" value="*****************" name="kodikos" size="50" maxlength="40">
+		</form>
+		<form>
+			<input type="checkbox" checked="checked" name="remeber">Να με θυμάσαι
+		</form>
+	</div>
+	<form type="submit" name="submit1"><button>Εγγραφή</button></form><br>
+	<div style="float: right; margin: 15px;"><a href="kefalaio1.html" target="welcome">Πρώτο κεφάλαιο</a></div>
+</body>
+
+</html>
